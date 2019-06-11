@@ -1,5 +1,5 @@
 function AlphabetSoup(str) { 
-var sorted = str.split("").sort().join("");
+const sorted = str.split("").sort().join("");
   // code goes here  
   str = sorted
   return str; 
